@@ -1,0 +1,12 @@
+.DS_Store
+.metadata
+.idea
+*.swp
+*.swo
+*.iml
+node_modules
+npm-debug.log
+npm-shrinkwrap.json
+package-lock.json
+yarn*
+dist

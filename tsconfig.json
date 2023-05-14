@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "declarationDir": "./dist",
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "downlevelIteration": true,
+        "lib": ["es2020"],
+        "outDir": "./dist",
+        "target": "es2020",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "listEmittedFiles": true,
+        "resolveJsonModule": true,
+        "strictBindCallApply": true,
+        "stripInternal": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.spec.ts"
+    ]
+}
